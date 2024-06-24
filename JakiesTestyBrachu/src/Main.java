@@ -6,8 +6,8 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
         Server server = new Server(6789);
-        Client[] clients = new Client[10];
-        for(int i =0; i < 10; i++)
+        Client[] clients = new Client[11];
+        for(int i =0; i < 11; i++)
         {
             clients[i] = new Client(6789, server);
         }
